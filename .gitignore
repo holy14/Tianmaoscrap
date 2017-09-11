@@ -1,0 +1,3 @@
+venv
+version*.py
+ghostdriver.log
