@@ -23,9 +23,9 @@ class TmallScrap:
         time.sleep(5)
         # 用户名 密码
         elem_user = driver.find_element_by_name("TPL_username")
-        elem_user.send_keys("alexkamlivelyimpact")
+        elem_user.send_keys("your user name")
         elem_pwd = driver.find_element_by_name("TPL_password")
-        elem_pwd.send_keys("53231323A")
+        elem_pwd.send_keys("your pass word")
         submit_btn = driver.find_element_by_id("J_SubmitStatic")
 
         time.sleep(3)
